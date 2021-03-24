@@ -1,0 +1,14 @@
+﻿<Window x:Class="V1P3R.Frame"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:V1P3R"
+        mc:Ignorable="d"
+        Title="V1P3R | VERSION 0.0.1-DEVBUILD | BobbyESP" Height="489" Width="813" ResizeMode="NoResize">
+    <Grid>
+        <Canvas HorizontalAlignment="Center" VerticalAlignment="Top" Height="464" Grid.RowSpan="2" Width="0">
+        </Canvas>
+        <Frame x:Name="loaderFrame" Content="Frame" NavigationUIVisibility="Hidden"/>
+    </Grid>
+</Window>
