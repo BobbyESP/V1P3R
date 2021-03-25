@@ -49,6 +49,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>appLogo.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
@@ -180,11 +183,13 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="appLogo.ico" />
+    <Resource Include="images\loading.gif" />
+    <Content Include="Menus\Inicio\homeVideo.mp4" />
     <Resource Include="images\Ascent_preview.png" />
     <Resource Include="images\Bonsai_preview.png" />
     <Resource Include="images\Duality_preview.png" />
     <Resource Include="images\Icebox_preview.png" />
-    <Resource Include="images\loading.gif" />
     <Resource Include="images\logo.png" />
     <Resource Include="images\Triad_preview.png" />
     <Resource Include="images\undefined.png" />

@@ -22,6 +22,7 @@ namespace V1P3R.Menus.Inicio
         public Inicio()
         {
             InitializeComponent();
+            
         }
 
         private void videoBackground_Loaded(object sender, RoutedEventArgs e)
@@ -36,7 +37,17 @@ namespace V1P3R.Menus.Inicio
 
         private void Page_Loaded(object sender, RoutedEventArgs e)
         {
-            videoContainer.Source = new Uri("https://502.wtf/ValorScrimMike/resources/homeVideo.mp4", UriKind.Absolute);
+            videoContainer.Source = new Uri(@"F:\Proyectos Visual Studio\V1P3R\V1P3R\Menus\Inicio\homeVideo.mp4", UriKind.Absolute);
+        }
+
+        private void startBTN_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.loaderFrameRef.Content = new Carga.Cargando();
+        }
+
+        private void settingsBTN_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.loaderFrameRef.Content = new Carga.Cargando();
         }
     }
 }

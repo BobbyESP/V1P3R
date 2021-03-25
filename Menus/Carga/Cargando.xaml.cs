@@ -17,7 +17,7 @@ namespace V1P3R.Menus.Carga
     /// <summary>
     /// Lógica de interacción para Cargando.xaml
     /// </summary>
-    public partial class Cargando : Window
+    public partial class Cargando : Page
     {
         public Cargando()
         {

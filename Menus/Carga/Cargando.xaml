@@ -9,9 +9,7 @@
         Title="Cargando">
     <Grid>
         <Canvas Background="#FF0F1923">
-            <Image Height="62" Canvas.Left="369" Canvas.Top="194" Width="62" Source="pack://application:,,,/images/3x.gif"/>
+            <Label Content="CARGANDO..."  Foreground="White" FontFamily="Bahnschrift" Height="47" FontSize="34" Canvas.Top="250" Canvas.Left="300" Width="208"/>
         </Canvas>
-        <Label Content="LOADING"  Foreground="White" FontFamily="Bahnschrift" Height="47" FontSize="34" Canvas.Top="82" Canvas.Left="260" Margin="325,250,325,153"/>
-
     </Grid>
 </Page>

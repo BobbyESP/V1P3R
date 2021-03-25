@@ -19,7 +19,7 @@ namespace V1P3R
     /// </summary>
     public partial class Frame : Window
     {
-        static public Frame loaderFrameRef;
+        static public System.Windows.Controls.Frame loaderFrameRef;
         public Frame()
         {
             InitializeComponent();

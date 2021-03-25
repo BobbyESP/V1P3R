@@ -6,9 +6,9 @@
         xmlns:local="clr-namespace:V1P3R.Menus.Inicio"
         mc:Ignorable="d"
         d:DesignHeight="450" d:DesignWidth="800"
-        Title="Inicio" Loaded="Page_Loaded" Background="#FF4565">
+        Title="Inicio" Loaded="Page_Loaded" Background="#0F1923">
     <Grid>
-        <MediaElement x:Name="videoBackground" Height="450" Volume="0" Loaded="videoBackground_Loaded" MediaEnded="videoBackground_MediaEnded" LoadedBehavior="Manual" VerticalAlignment="Top" OpacityMask="#FFDA1414" Stretch="UniformToFill" >
+        <MediaElement x:Name="videoBackground" Margin="0,0,384,0" Height="462" Volume="0" Loaded="videoBackground_Loaded" MediaEnded="videoBackground_MediaEnded" LoadedBehavior="Manual" VerticalAlignment="Top" OpacityMask="#FFDA1414" Stretch="Fill" >
             <MediaElement.Triggers>
                 <EventTrigger RoutedEvent="FrameworkElement.Loaded">
                     <BeginStoryboard>
@@ -22,5 +22,7 @@
                 </EventTrigger>
             </MediaElement.Triggers>
         </MediaElement>
+        <Button x:Name="startBTN" Content="INICIAR" HorizontalAlignment="Left" Margin="518,200,0,0" VerticalAlignment="Top" Height="50" Width="164" FontFamily="Bahnschrift SemiBold" FontSize="24" Background="#FF0F1923" BorderBrush="#FFF4F4F4" Foreground="#FFF4F4F4" Click="startBTN_Click"/>
+        <Button x:Name="settingsBTN" Content="AJUSTES" HorizontalAlignment="Left" Margin="518,275,0,0" VerticalAlignment="Top" Height="50" Width="164" FontFamily="Bahnschrift SemiBold" FontSize="24" Background="#FF0F1923" BorderBrush="#FFF4F4F4" Foreground="#FFF4F4F4" Click="settingsBTN_Click"/>
     </Grid>
 </Page>
